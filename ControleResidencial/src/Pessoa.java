@@ -49,4 +49,14 @@ public class Pessoa {
         System.out.println("CPF: " + this.getCPF());
         System.out.println("Telefone: "+this.Telefone);
     }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "CPF=" + CPF +
+                ", Nome='" + Nome + '\'' +
+                ", Idade=" + Idade +
+                ", Telefone=" + Telefone +
+                '}';
+    }
 }
